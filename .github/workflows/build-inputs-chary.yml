@@ -12,7 +12,7 @@ on:
       shield:
         description: 'shield'
         required: false
-        default: 'charybdis_left,charybdis_right'
+        default: 'charybdis_left,charybdis_right,settings_reset'
       alphas:
         description: 'alphas'
         required: false
