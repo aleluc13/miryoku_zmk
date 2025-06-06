@@ -53,10 +53,11 @@ on:
       custom_config:
         description: 'custom_config'
         required: false
+        default: 'default'
       kconfig:
         description: 'kconfig'
         required: false
-        default: 'CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y'
+        default: 'default'
       branches:
         description: 'branches'
         required: false
