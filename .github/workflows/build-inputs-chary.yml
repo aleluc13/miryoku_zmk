@@ -53,11 +53,10 @@ on:
       custom_config:
         description: 'custom_config'
         required: false
-        default: 'charybdis_left,charybdis_right'
       kconfig:
         description: 'kconfig'
         required: false
-        default: 'CONFIG_ZMK_MOUSE=y,CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y'
+        default: 'CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y'
       branches:
         description: 'branches'
         required: false
